@@ -1,0 +1,38 @@
+/* Importar fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Flamenco:wght@300;400&display=swap');
+
+/* Reiniciar márgenes y rellenos predeterminados, y establecer ancho y alto completos para los elementos html y body */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Aplicar una imagen de fondo al body */
+body {
+  background-image: url("../imagenes/fondo/pantalla.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  background-position: center; /* Centra la imagen en la pantalla */
+  background-size: cover; /* Utiliza 'cover' para ajustar la imagen al tamaño del body */
+}
+
+/* Estilo para la barra de navegación */
+.nav {
+  background-color: transparent;
+  display: flex;
+  
+}
+
+
+.logo {
+
+max-width: 6rem;
+max-height: 20rem;
+margin-left: 1.3rem;
+margin-top: 1rem;
+
+
+}
